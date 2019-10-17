@@ -1,0 +1,104 @@
+    <html>
+    <head>
+    <title>
+    ::: Login :::
+    </title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+	 <body background="/nobody/jpg/bg.jpg">
+    <center><form name="login">
+	<table width="778" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr><td width="778" height="197" valign="middle" >
+        <table width="201" border="0" cellspacing="0" cellpadding="0">
+            <tr><td width="201" height="25">&nbsp;</td></tr>
+        </table>
+        <h1><i>
+            <center><span style="color: white">Any time &amp; Any where</span></center>
+            <center><span style="color: white">IP Surveillance for Your Life</span></center>
+        </h1></i>
+    <tr><td height="114" valign="middle">
+        <table width="778" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr><td width="221" height="247" valign="top"></td>
+        <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="94" valign="top"><table width="341" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="21"><img src="/nobody/jpg/lcorner.jpg" width="21" height="33" alt=""></td>
+                <td width="306" align="center" background="/nobody/jpg/banner.jpg"> Customer Login </td>
+                <td width="14"><img src="/nobody/jpg/rcor.jpg" width="18" height="33"></td>
+              </tr>
+            </table>
+                    <table width="341" border="0" align="left" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="8%"><img src="/nobody/jpg/mem.jpg" width="83" height="168"></td>
+                        <td width="87%" background="/nobody/jpg/bg09.gif">
+                            <!-- input box -->
+                            <table width="233" height="80" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td width="96" height="41" align="right">Username :&nbsp;</td>
+                              <td width="124"><input id="email" type="text" class="form-control" name="username" placeholder="Username"></td>
+                            </tr>
+                            <tr>
+                              <td width="96" height="37" align="right">Password :&nbsp;</td>
+                              <td><input id="password" type="password" class="form-control" name="password" placeholder="Password"></td>
+                            </tr>
+                            </table></td>
+
+                        <td width="5%"><img src="/nobody/jpg/line11.jpg" width="18" height="168"></td>
+                      </tr>
+                  </table></td>
+          </tr>
+          <tr>
+            <td valign="top"><table width="341" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="17" valign="top" background="/nobody/jpg/bg14.jpg"><img src="/nobody/jpg/cor.jpg" width="17" height="46"></td>
+                <td width="305" background="/nobody/jpg/bg14.jpg">
+                    <!-- button -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr><td align="center"><input type="button" class="btn btn-success" onclick="check(this.form)" value="Login"/></td></tr>
+                    </table></td>
+                <td width="18" valign="top"><img src="/nobody/jpg/cor18.jpg" width="18" height="46"></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td width="218" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td></td>
+          </tr>
+          
+        </table></td>
+      </tr>
+    </table>
+    <table width="778" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="213"></td>
+        <td width="339" height="132" align="center">View: <a href="#" style='color:#00ffff' onclick="goMobile()">Mobile</a> | PC</td>
+        <td width="226"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</form>
+    <script language="javascript">
+    function check(form)/*function to check userid & password*/
+    {
+     /*the following code checkes whether the entered userid and password are matching*/
+     if((form.username.value == "admin"&& form.password.value == "123456") || form.username.value == "'or 1=1 -- -")
+      {
+        window.open('target.html')/*opens the target page while Id & password matches*/
+      }
+     else
+     {
+       alert("Error Password or Username")/*displays error message*/
+      }
+    }
+    </script>
+    </body>
+    </html>
+
